@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jay Pandhurnekar — Data Science Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,900;1,400;1,600&family=Nunito:wght@300;400;600;700&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- BACKGROUND BLOBS -->
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+  <div class="blob blob3"></div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">Jay <em>P.</em></div>
+    <div class="nav-links">
+      <a href="#skills">Skills</a>
+      <a href="#internships">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-badge">
+      <div class="badge-dot"></div> Open to Internships
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <div class="hero-eyebrow">Data Science &amp; Machine Learning</div>
+      <h1 class="hero-name">
+        Jay<br>
+        <em class="italic">Pandhurnekar-</em><br>
+      </h1>
+      <div class="hero-subtitle">Aspiring Data Scientist &amp; Engineer</div>
+      <p class="hero-desc">4th-semester undergrad at JD College of Engineering, Nagpur — building at the intersection of data, ML, and real-world problem solving.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-primary">Get in Touch</a>
+        <a href="#projects" class="btn-secondary">View Projects</a>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat-row">
+        <div class="stat-label">Current CGPA</div>
+        <div class="stat-value" id="cgpaCounter">0.0</div>
+        <div class="stat-sub">B.Tech CSE — Data Science</div>
+      </div>
+      <div class="stat-row">
+        <div class="stat-label">Internships</div>
+        <div class="stat-value" id="internCounter">0</div>
+        <div class="stat-sub">Google Virtual Programs</div>
+      </div>
+      <div class="stat-row">
+        <div class="stat-label">Certifications</div>
+        <div class="stat-value" id="certCounter">0</div>
+        <div class="stat-sub">Across platforms</div>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      scroll to explore
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label">Technical Arsenal</div>
+    <h2 class="section-title">Skills &amp; <em>Technologies</em></h2>
+    <div class="skills-grid">
+      <div class="skill-cat">
+        <div class="cat-icon">⌨️</div>
+        <div class="cat-name">Programming Languages</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">C</span>
+          <span class="skill-tag">C++</span>
+          <span class="skill-tag">SQL</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <div class="cat-icon">🧠</div>
+        <div class="cat-name">Data Science &amp; ML</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Pandas</span>
+          <span class="skill-tag">NumPy</span>
+          <span class="skill-tag">TensorFlow</span>
+          <span class="skill-tag">ML</span>
+          <span class="skill-tag">EDA</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <div class="cat-icon">📊</div>
+        <div class="cat-name">Data Visualization</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Matplotlib</span>
+          <span class="skill-tag">Seaborn</span>
+          <span class="skill-tag">Power BI</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <div class="cat-icon">🛠️</div>
+        <div class="cat-name">Tools &amp; Databases</div>
+        <div class="skill-tags">
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">Jupyter</span>
+          <span class="skill-tag">Google Colab</span>
+          <span class="skill-tag">MS Excel</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <div class="cat-icon">📐</div>
+        <div class="cat-name">Core Concepts</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Statistics</span>
+          <span class="skill-tag">Probability</span>
+          <span class="skill-tag">Predictive Modeling</span>
+        </div>
+      </div>
+      <div class="skill-cat">
+        <div class="cat-icon">🤖</div>
+        <div class="cat-name">Generative AI</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Prompt Engineering</span>
+          <span class="skill-tag">Gen AI</span>
+          <span class="skill-tag">Android Dev</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERNSHIPS -->
+  <section id="internships">
+    <div class="section-label n2">Experience</div>
+    <h2 class="section-title"><em>Internships</em></h2>
+    <div class="intern-list">
+      <div class="intern-card">
+        <div class="intern-num">01</div>
+        <div>
+          <div class="intern-role">AI / ML Intern</div>
+          <div class="intern-company">Google — Virtual Program</div>
+          <div class="intern-type">Artificial Intelligence &amp; Machine Learning</div>
+        </div>
+        <div class="intern-period">Oct 15 – Dec 15, 2025</div>
+      </div>
+      <div class="intern-card">
+        <div class="intern-num">02</div>
+        <div>
+          <div class="intern-role">Android Developer Intern</div>
+          <div class="intern-company">Google — Virtual Program</div>
+          <div class="intern-type">Mobile Development</div>
+        </div>
+        <div class="intern-period">Jul 15 – Sep 15, 2025</div>
+      </div>
+      <div class="intern-card">
+        <div class="intern-num">03</div>
+        <div>
+          <div class="intern-role">Generative AI Intern</div>
+          <div class="intern-company">Google — Virtual Program</div>
+          <div class="intern-type">Generative AI</div>
+        </div>
+        <div class="intern-period">Jan 15 – Mar 15, 2025</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label n3">Portfolio</div>
+    <h2 class="section-title">Featured <em>Projects</em></h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-num">01</div>
+        <div class="project-lang">Python · HTML/CSS</div>
+        <div class="project-name">Number Guessing Game</div>
+        <ul class="project-points">
+          <li>Interactive Python backend with HTML/CSS frontend.</li>
+          <li>Real-time feedback to enhance user engagement.</li>
+          <li>Over 90% accuracy in guess validation &amp; edge cases.</li>
+          <li>Visualized results for a smooth, enjoyable experience.</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <div class="project-num">02</div>
+        <div class="project-lang">Python · MySQL · HTML/CSS</div>
+        <div class="project-name">Bank Management System</div>
+        <ul class="project-points">
+          <li>Secure system with full account lifecycle management.</li>
+          <li>Automated deposits, withdrawals &amp; interest calculations.</li>
+          <li>Real-time balance updates with transaction accuracy.</li>
+          <li>Visualized customer data for efficient operations.</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <div class="project-num">03</div>
+        <div class="project-lang">C++ · File Handling</div>
+        <div class="project-name">Student Record System</div>
+        <ul class="project-points">
+          <li>Manages roll numbers, names, marks &amp; grades.</li>
+          <li>Full CRUD: add, view, update, search, delete records.</li>
+          <li>File handling for accurate storage &amp; retrieval.</li>
+          <li>~75% efficiency gain over manual management.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-label n4">Academic Background</div>
+    <h2 class="section-title"><em>Education</em></h2>
+    <div class="edu-timeline">
+      <div class="edu-item">
+        <div class="edu-year">2024 –<br>2028</div>
+        <div>
+          <div class="edu-degree">B.Tech — CSE (Data Science)</div>
+          <div class="edu-school">JD College of Engineering and Management, Nagpur</div>
+          <div class="edu-grade">CGPA: 7.60 / 10</div>
+        </div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-year">2023 –<br>2024</div>
+        <div>
+          <div class="edu-degree">Intermediate (12th)</div>
+          <div class="edu-school">Shri Ram Junior College Sonegaon, Nagpur</div>
+          <div class="edu-grade">69.4%</div>
+        </div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-year">2020 –<br>2021</div>
+        <div>
+          <div class="edu-degree">Matriculate (10th)</div>
+          <div class="edu-school">Shri Kolba Swami Vidyalaya Dhapewada, Nagpur</div>
+          <div class="edu-grade">68.6%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section>
+    <div class="section-label n5">Credentials</div>
+    <h2 class="section-title"><em>Certifications</em></h2>
+    <div class="certs-grid">
+      <div class="cert-item">
+        <div class="cert-dot"></div>
+        <div class="cert-name">Generative AI — L&T EduTech</div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-dot"></div>
+        <div class="cert-name">Soft Skill Development — NPTEL</div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-dot"></div>
+        <div class="cert-name">Prompt Engineering — DeepLearning.AI</div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-dot"></div>
+        <div class="cert-name">Negotiation &amp; Communication — Coursera</div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-dot"></div>
+        <div class="cert-name">Time Management — Infosys Springboard</div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-dot"></div>
+        <div class="cert-name">Generative AI — Google Skills</div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-dot"></div>
+        <div class="cert-name">Data Analysis &amp; Technology — Deloitte</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section>
+    <div class="section-label n6">Activities</div>
+    <h2 class="section-title">Achievements &amp; <em>Extra-Curriculars</em></h2>
+    <div class="achieve-grid">
+      <div class="achieve-item">
+        <div class="achieve-icon">🏆</div>
+        <div class="achieve-text">
+          <strong>Hackathon 2025</strong>
+          <span>Inter-college level participation.</span>
+        </div>
+      </div>
+      <div class="achieve-item">
+        <div class="achieve-icon">🤖</div>
+        <div class="achieve-text">
+          <strong>RoboWar Event</strong>
+          <span>College-level robotics competition.</span>
+        </div>
+      </div>
+      <div class="achieve-item">
+        <div class="achieve-icon">💰</div>
+        <div class="achieve-text">
+          <strong>National Financial Literacy Quiz</strong>
+          <span>National-level 2025 participation.</span>
+        </div>
+      </div>
+      <div class="achieve-item">
+        <div class="achieve-icon">📝</div>
+        <div class="achieve-text">
+          <strong>Quiz Competition</strong>
+          <span>Inter-college quiz event.</span>
+        </div>
+      </div>
+      <div class="achieve-item">
+        <div class="achieve-icon">💻</div>
+        <div class="achieve-text">
+          <strong>Technical Club</strong>
+          <span>Active member of college tech club.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-wrap">
+      <div class="contact-label">Let's Connect</div>
+      <div class="contact-title">Open for <em>Opportunities</em></div>
+      <p class="contact-sub">Looking for a data science or data analyst internship. Let's build something great together.</p>
+      <div class="contact-links">
+        <a href="mailto:jaypandhurkar619@gmail.com" class="contact-link">
+          <span class="contact-link-icon">✉</span> jaypandhurkar619@gmail.com
+        </a>
+        <a href="https://linkedin.com/in/jaypandhurnekar" target="_blank" class="contact-link">
+          <span class="contact-link-icon">💼</span> LinkedIn
+        </a>
+        <a href="https://github.com/jaypandhurnekar" target="_blank" class="contact-link">
+          <span class="contact-link-icon">⌨</span> GitHub
+        </a>
+        <a href="tel:+917028716517" class="contact-link">
+          <span class="contact-link-icon">📞</span> +91-7028716517
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>© 2025 Jay Pandhurnekar · Nagpur, Maharashtra · Built with intention</footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
